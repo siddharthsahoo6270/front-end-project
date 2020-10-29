@@ -1,0 +1,277 @@
+<html>
+    <head>
+        <title>
+        
+            Freaked : The Keyhole
+        
+        </title>
+        <style>
+            @font-face{
+                src:url("fonts/CaviarDreams.ttf");
+                font-family:caviar;
+            }
+            
+            @font-face{
+                src: url("fonts/voice.otf");
+                font-family:assassin;
+            }
+            
+            @font-face{
+                src: url("fonts/GoogleSans.ttf");
+                font-family:google sans;
+            }
+            
+            .back1{
+            background:url("image/back2.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back2{
+            background:url("image/w-a-t-a-r-i-540046-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back3{
+            background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            body,html{
+                margin:0;
+                scroll-behavior: smooth;
+                background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+            }
+/*
+            .header{
+                width:100%;
+                background: white;
+                font-family: assassin;
+                overflow: hidden;
+                position: fixed;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)
+            }
+*/
+            
+            .item{
+                color: white;
+                text-align:center;
+                font-family: assassin;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-left: 30px;
+                font-size: 60px;
+/*                animation: danger 8s linear 2s infinite;*/
+            }
+            
+            @keyframes danger{
+                0%{color:black;}
+                25%{color:red;}
+                50%{color:blue;}
+                75%{color:darkviolet}
+                100%{color:black;}
+            }
+            
+            .box{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:75%;
+                height:700px;
+                padding:30px;
+                text-align: center;
+                font-size: 35px;
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                
+                
+            }
+            .btn1{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-position: 50%;
+                transition: all .4s ease;
+            }
+            .btn2{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                 background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn2:hover{
+                background-position: 90%;
+                transition: all .4s ease;
+            }
+            .gridcontainer{
+                width: 70%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+            .longCard{
+                cursor: pointer;
+                width:250px;
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+                font-family: google sans;
+                border: none;
+                color:black;
+                background: white;
+                height:330px;
+                
+                text-align: center;
+                font-size: 20px;
+                background: white;
+                
+               border-radius: 5px ;
+                
+               
+            }
+            .smallcard{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/carmen-winstead.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard:hover{
+             filter: grayscale(0);
+            }
+            .smallcard2{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+                
+            }
+            .smallcard3{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/black-eyed-children.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard3:hover{
+               
+                filter: grayscale(0);
+            }
+            .smallcard4{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .smallcard5{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/video-tape.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard5:hover{
+                
+                filter: grayscale(0);
+            }
+            .smallcard6{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+             
+        
+        </style>
+    </head>
+    
+    <body>
+    
+    
+       
+            <div class="header" id="header">
+        
+        <div class="item" id=item><a href="creepy.html" style="color:white;text-decoration: none;">Freaked</a></div>
+       
+        </div>
+        <br><br>
+        <br><center>
+            
+    
+    
+
+        <div class=box>
+            <img style="margin-right: 25px;" align="left" src="image/keyhole.jpg" width=360>
+            The Keyhole
+            
+            <br>
+            
+            
+            <div class="text" style="text-align: left;font-size: 20px;margin-left: 5px">
+            <p>A man went to a hotel and walked up to the front desk to check in. The woman at the desk gave him his key and told him that on the way to his room, there was a door with no number that was locked and no one was allowed in there. Especially no one should look inside the room, under any circumstances. So he followed the instructions of the woman at the front desk, going straight to his room, and going to bed.</p>
+<p>The next night his curiosity would not leave him alone about the room with no number on the door. He walked down the hall to the door and tried the handle. Sure enough it was locked. He bent down and looked through the wide keyhole. Cold air passed through it, chilling his eye. What he saw was a hotel bedroom, like his, and in the corner was a woman whose skin was completely white. She was leaning her head against the wall, facing away from the door. He stared in confusion for a while. He almost knocked on the door, out of curiosity, but decided not to.</p>
+<p>He crept away from the door and walked back to his room. The next day, he returned to the door and looked through the keyhole. This time, all he saw was red. He couldn’t make anything out besides a distinct red color. Perhaps the inhabitants of the room knew he was spying the night before, and had blocked the keyhole with something red.</p>
+<p>At this point he decided to consult the woman at the front desk for more information. She sighed and said, “Did you look through the keyhole?" The man told her that he had and she said, “Well, I might as well tell you the story. A long time ago, a man murdered his wife in that room, and her ghost haunts it. But these people were not ordinary. They were white all over, except for their eyes, which were red."</p>
+                
+            </div>
+            <font size=4></font>
+        </div>
+
+            
+            <br><br><br><br>
+            
+        </center>
+            
+ 
+        
+        <script>
+        
+        
+        </script>
+    </body>
+</html>

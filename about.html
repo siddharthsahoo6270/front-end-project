@@ -1,0 +1,361 @@
+<html>
+    <head>
+        <title>
+        
+            Freaked : About the Developer
+        
+        </title>
+        <style>
+            @font-face{
+                src:url("fonts/CaviarDreams.ttf");
+                font-family:caviar;
+            }
+            
+            @font-face{
+                src: url("fonts/voice.otf");
+                font-family:assassin;
+            }
+            
+            @font-face{
+                src: url("fonts/GoogleSans.ttf");
+                font-family:google sans;
+            }
+            
+            .back1{
+            background:url("image/background 1.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back2{
+            background:url("image/background2.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back3{
+            background:url("image/mohammad-alizade-631039-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            body,html{
+                margin:0;
+                scroll-behavior: smooth;
+            }
+/*
+            .header{
+                width:100%;
+                background: white;
+                font-family: assassin;
+                overflow: hidden;
+                position: fixed;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)
+            }
+*/
+            
+            .item{
+                color: white;
+                text-align:center;
+                font-family: assassin;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-left: 30px;
+                font-size: 60px;
+               animation: danger 8s linear 2s infinite;
+            }
+            
+            
+            .cont{
+                display: grid;
+                grid-template-columns: auto auto;
+                width:100%;
+            }
+            @keyframes anim{
+                0%{background-position: 0%;}
+                20%{background-position: 20%;}
+                40%{background-position: 40%;}
+                60%{background-position: 60%;}
+                80%{background-position: 80%;}
+                110%{background-position: 0%;}
+                
+            }
+            .box1{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:27%;
+                height:auto;
+                padding-left:30px;
+                 padding-right:30px;
+                 padding-top:35px;
+                 padding-bottom:35px;
+                border-radius: 8px;
+                text-align: center;
+                background: white;
+                font-size: 24px;
+                background-size: 400% 400%;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                background: linear-gradient(to right,#faffd1,#a1ffce);
+                transition: all 0.5s ease;
+            }
+            .box1:hover{
+                cursor:pointer;
+                 background-size: 400% 400%;
+                background: linear-gradient(to right,#faffd1,#a1ffce
+
+
+);
+                
+                
+            }
+            .box{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:30%;
+                height:auto;
+                padding-left:30px;
+                 padding-right:30px;
+                 padding-top:40px;
+                 padding-bottom:40px;
+                border-radius: 8px;
+                text-align: center;
+                
+                font-size: 28px;
+               background: linear-gradient(to right,#9cecfb,#65C7F7,#4a87e8
+);
+                background-size: 400% 400%;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                animation: anim 4s linear infinite;
+                transition: all 0.3s ease;
+            }
+            
+            .box:hover{
+              
+                padding-left:40px;
+                 padding-right:40px;
+                 padding-top:50px;
+                 padding-bottom:50px;
+                transition: all 0.3s ease;
+            }
+            
+            .box2{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:50%;
+                height:auto;
+                margin-left: 60%;
+                padding-left:30px;
+                padding-right:30px;
+                padding-top:40px;
+                padding-bottom:40px;
+                border-radius: 8px;
+                text-align: center;
+                background-position: 300% 100%;
+                font-size: 28px;
+                background: linear-gradient(to right,#e88385,#e1eec3);
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                animation: anim 4s linear infinite;
+                background-size: 400% ;
+                transition: all 0.3s ease;
+            }
+            .box2:hover{
+              
+                 padding-left:40px;
+                 padding-right:40px;
+                 padding-top:50px;
+                 padding-bottom:50px;
+                transition: all 0.3s ease;
+            }
+            .btn1{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-position: 50%;
+                transition: all .4s ease;
+            }
+            .btn2{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                 background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn2:hover{
+                background-position: 90%;
+                transition: all .4s ease;
+            }
+            .gridcontainer{
+                width: 70%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+            .longCard{
+                cursor: pointer;
+                width:250px;
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+                font-family: google sans;
+                border: none;
+                color:black;
+                background: white;
+                height:330px;
+                
+                text-align: center;
+                font-size: 20px;
+                background: white;
+                
+               border-radius: 5px ;
+                
+               
+            }
+            .smallcard{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: red;
+                background: url(image/191073-131-0D844C57.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard:hover{
+             filter: grayscale(0);
+            }
+            .smallcard2{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+                
+            }
+            .smallcard3{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: red;
+                background: url(image/Satan_School_01a-1050x630.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard3:hover{
+               
+                filter: grayscale(0);
+            }
+            .smallcard4{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .smallcard5{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/rsz_call_of_duty_black_ops_4_dead_of_the_night_5.jpeg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard5:hover{
+                filter: grayscale(0);
+            }
+            .smallcard6{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .
+        </style>
+    </head>
+    
+    <body>
+    <embed  src="songs/main.mp3" loop="true" hidden="true" autostart="true">
+    
+        <div class="back1">
+            <div class="header" id="header">
+        
+        <div class="item" id=item><a href="index.html" style="color:white;text-decoration: none;">Freaked</a></div>
+       
+        </div>
+        <br><br><br><br><br>
+        <br><center>
+            <div class=cont>
+                <a href="#siddharth" style="text-decoration: none"> <div class=box2>
+           Siddharth Sahoo
+            <br>
+            
+        
+        </div></a>
+                
+             <br>
+            
+            <br><br>
+            
+            <br><br><br><br>
+            
+            <br><br>
+           </center>
+            </div>
+        <div class="back2" id="rudra"><center><br><br><br>
+                <div class="box1"> <img src="image/siddharth.png" style="width: 120px;height:120px;border-radius: 50%;">
+            <br><br>
+                    <font size=5>
+                        Name :- Siddharth Sahoo
+                        
+                        <br>
+                          <br>
+                         Here I've collected the datas including stories , images , sounds, GIFs  from the internet and implemented in the website .
+                    </font>
+                <br><br>
+                </div>
+            </center>
+        </div>
+    </center>
+        </div>
+        
+        
+        <script>
+        
+        
+        </script>
+    </body>
+</html>
+
+        
+                
+             

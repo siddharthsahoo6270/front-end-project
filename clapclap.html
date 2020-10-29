@@ -1,0 +1,305 @@
+<html>
+    <head>
+        <title>
+        
+            Freaked : Clap Clap
+        
+        </title>
+        <style>
+            @font-face{
+                src:url("fonts/CaviarDreams.ttf");
+                font-family:caviar;
+            }
+            
+            @font-face{
+                src: url("fonts/voice.otf");
+                font-family:assassin;
+            }
+            
+            @font-face{
+                src: url("fonts/GoogleSans.ttf");
+                font-family:google sans;
+            }
+            
+            .back1{
+            background:url("image/back2.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back2{
+            background:url("image/w-a-t-a-r-i-540046-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back3{
+            background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            body,html{
+                margin:0;
+                scroll-behavior: smooth;
+                background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+            }
+/*
+            .header{
+                width:100%;
+                background: white;
+                font-family: assassin;
+                overflow: hidden;
+                position: fixed;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)
+            }
+*/
+            
+            .item{
+                color: white;
+                text-align:center;
+                font-family: assassin;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-left: 30px;
+                font-size: 60px;
+              animation: danger 8s linear 2s infinite;
+            }
+            
+            @keyframes danger{
+                0%{color:white;}
+                25%{color:#ff5757;}
+                50%{color:#4b89ff;}
+                75%{color:#ce5aff}
+                100%{color:white;}
+            }
+            
+            .box{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:75%;
+                height:2050px;
+                padding:30px;
+                text-align: center;
+                font-size: 35px;
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                
+                
+            }
+            .btn1{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-position: 50%;
+                transition: all .4s ease;
+            }
+            .btn2{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                 background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn2:hover{
+                background-position: 90%;
+                transition: all .4s ease;
+            }
+            .gridcontainer{
+                width: 70%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+            .longCard{
+                cursor: pointer;
+                width:250px;
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+                font-family: google sans;
+                border: none;
+                color:black;
+                background: white;
+                height:330px;
+                
+                text-align: center;
+                font-size: 20px;
+                background: white;
+                
+               border-radius: 5px ;
+                
+               
+            }
+            .smallcard{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/carmen-winstead.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard:hover{
+             filter: grayscale(0);
+            }
+            .smallcard2{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+                
+            }
+            .smallcard3{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/black-eyed-children.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard3:hover{
+               
+                filter: grayscale(0);
+            }
+            .smallcard4{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .smallcard5{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/video-tape.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard5:hover{
+                
+                filter: grayscale(0);
+            }
+            .smallcard6{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+             
+        
+        </style>
+    </head>
+    
+    <body>
+    
+    
+       
+            <div class="header" id="header">
+        
+        <div class="item" id=item><a href="ghost.html" style="color:white;text-decoration: none;">Freaked</a></div>
+       
+        </div>
+        <br><br>
+        <br><center>
+            
+    
+    
+
+        <div class=box>
+            <img style="margin-right: 25px;" align="left" src="image/clap-clap.jpg">
+            Clap Clap
+            
+            <br>
+            
+            
+            <div class="text" style="text-align: left;font-size: 20px;margin-left: 5px">
+            
+            <p>One day, a young married couple went hiking in the mountains. As the sun began to set, they realized that they were lost. The wife was getting worried, but her husband tried to calm her down and assured her that they would eventually find their way back to their car. However, after walking for hours, they still had no idea where they were. </p>
+<p>It was growing dark and the man and wife were getting desperate. They didn&#8217;t have a map or a compass with them and all of the trees looked the same. Just when they were about to give up hope, they came across an old cabin in a clearing.</p>
+<p>The cabin looked as if it had seen better days. It was dilapidated and seemed like it hadn&#8217;t been used in a long time. Some of the windows were cracked and broken and a lot of the tiles had fallen off the roof. The husband knocked on the front door but there was no response. When he turned the handle, it slowly creaked open.</p>
+<p>Inside, they found it was in a bad state of disrepair. There was very little furniture and the floor was covered in a thick layer of dust. As the couple cautiously looked around, they noticed a strange atmosphere and a peculiar musty smell. </p>
+                <p>The walls were covered from floor to ceiling with graffiti. Written in red paint, the words, &#8220;Death! Death! Death! Death! Death!&#8221; were repeated over and over again.</p>
+<p>The man and woman were unnerved. With a shaking hand, the husband reached out to touch the wall. He was horrified to find that the paint was not yet dry.</p>
+<p>The couple were very frightened, but they had nowhere else to go. They knew that the mountain was dangerous at night and there were lots of wild animals prowling the woods. Despite the creepy writing on the walls, they decided to stay the night. </p>
+<p>Going upstairs, they found a moth-eaten mattress that was covered in stains. The husband and wife wrapped themselves in an old piece of carpet to keep warm and tried to make themselves as comfortable as possible under the circumstances. They lay down together on the mattress and eventually managed to fall asleep.</p>
+<p>Sometime after midnight, the couple were awakened by a strange rustling noise. It sounded like someone or something was moving around outside the shack.</p>
+<p>&#8220;Did you hear that?&#8221; asked his wife. &#8220;I think there&#8217;s somebody out there.&#8221;</p>
+                <p>Her husband listened for a while, but he didn&#8217;t hear anything. He got out of bed and walked over to the window. It was too dark outside to see anything. Opening the window, he stuck his head out.</p>
+<p>&#8220;Who&#8217;s there?&#8221; he called nervously.</p>
+<p>There was no answer.</p>
+<p>He was about to go back to bed when his wife said, &#8220;Maybe it&#8217;s someone who can&#8217;t speak&#8230;&#8221;</p>
+<p>The husband returned to the window and said, &#8220;Is there anybody out there? Clap once for YES and twice for NO.&#8221;</p>
+<p>He strained his ears to listen. The stars twinkled in the night sky. The crickets were chirping loudly. </p>
+<p>All of a sudden, he heard a loud CLAP! </p>
+<p>The man turned to his wife and said in surprise, &#8220;You were right. There&#8217;s someone out there.&#8221;</p>
+<p>He leaned out the window and his eyes scanned the darkness. He couldn&#8217;t make out anything in the pitch black. </p>
+<p>&#8220;Are you the owner of this cabin?&#8221; he asked.</p>
+<p>CLAP! CLAP! </p>
+<p>&#8220;Are you a man?&#8221;</p>
+<p>CLAP! CLAP! </p>
+<p>&#8220;You&#8217;re a woman, then?&#8221;</p>
+<p>CLAP! CLAP! </p>
+<p>&#8220;Are you human?&#8221;</p>
+<p>CLAP! CLAP! </p>
+<p>A chill ran down his spine. He swallowed hard and croaked, &#8220;Did you come here alone?&#8221;</p>
+<p>CLAP! CLAP! </p>
+<p>&#8220;How many are with you? Clap once for each person&#8230;&#8221;</p>
+<p>CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP! CLAP!&#8230;</p>
+
+            </div>
+            <font size=4></font>
+        </div>
+
+            
+            <br><br><br><br>
+            
+        </center>
+            
+ 
+        
+        <script>
+        
+        
+        </script>
+    </body>
+</html>

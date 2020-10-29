@@ -1,0 +1,289 @@
+<html>
+    <head>
+        <title>
+        
+            Freaked : Video Tape
+        
+        </title>
+        <style>
+            @font-face{
+                src:url("fonts/CaviarDreams.ttf");
+                font-family:caviar;
+            }
+            
+            @font-face{
+                src: url("fonts/voice.otf");
+                font-family:assassin;
+            }
+            
+            @font-face{
+                src: url("fonts/GoogleSans.ttf");
+                font-family:google sans;
+            }
+            
+            .back1{
+            background:url("image/back2.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back2{
+            background:url("image/w-a-t-a-r-i-540046-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back3{
+            background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            body,html{
+                margin:0;
+                scroll-behavior: smooth;
+                background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+            }
+/*
+            .header{
+                width:100%;
+                background: white;
+                font-family: assassin;
+                overflow: hidden;
+                position: fixed;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)
+            }
+*/
+            
+            .item{
+                color: white;
+                text-align:center;
+                font-family: assassin;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-left: 30px;
+                font-size: 60px;
+/*                animation: danger 8s linear 2s infinite;*/
+            }
+            
+            @keyframes danger{
+                0%{color:black;}
+                25%{color:red;}
+                50%{color:blue;}
+                75%{color:darkviolet}
+                100%{color:black;}
+            }
+            
+            .box{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:75%;
+                height:1600px;
+                padding:30px;
+                text-align: center;
+                font-size: 35px;
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                
+                
+            }
+            .btn1{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-position: 50%;
+                transition: all .4s ease;
+            }
+            .btn2{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                 background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn2:hover{
+                background-position: 90%;
+                transition: all .4s ease;
+            }
+            .gridcontainer{
+                width: 70%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+            .longCard{
+                cursor: pointer;
+                width:250px;
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+                font-family: google sans;
+                border: none;
+                color:black;
+                background: white;
+                height:330px;
+                
+                text-align: center;
+                font-size: 20px;
+                background: white;
+                
+               border-radius: 5px ;
+                
+               
+            }
+            .smallcard{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/carmen-winstead.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard:hover{
+             filter: grayscale(0);
+            }
+            .smallcard2{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+                
+            }
+            .smallcard3{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/black-eyed-children.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard3:hover{
+               
+                filter: grayscale(0);
+            }
+            .smallcard4{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .smallcard5{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/video-tape.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard5:hover{
+                
+                filter: grayscale(0);
+            }
+            .smallcard6{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+             
+        
+        </style>
+    </head>
+    
+    <body>
+    
+    
+       
+            <div class="header" id="header">
+        
+       <div class="item" id=item><a href="urban.html" style="color:white;text-decoration: none;">Freaked</a></div>
+       
+        </div>
+        <br><br>
+        <br><center>
+            
+    
+    
+
+        <div class=box>
+            <img style="margin-right: 25px;" align="left" src="image/video-tape.jpg" width=360>
+            Video Tape
+            
+            <br>
+            
+            
+            <div class="text" style="text-align: left;font-size: 20px;margin-left: 5px">
+            <p>Years ago, there was a group of three girls who went to high school together. They were all best friends and one night, during the Summer holidays, they decided to have a sleepover party. </p>
+<p>They spent all day planning their sleepover and, because they were all horror fans, they decided to rent a scary movie. It was late at night when the three girls piled into a car and drove down to their local video rental store, but it was closed. The girls spent the next half hour driving around town, looking for a video store that was still open. </p>
+<p>Eventually, they found a little shop that was located in a side street and went inside. The girls could not agree on a film to rent, so one of them went over to the woman behind the counter and asked her if she had any suggestions. The woman told her that she had just the thing for them and disappeared into a back room. </p>
+<p>While they were waiting, one of the girls noticed a video tape lying on the counter. It didn&#8217;t have a box cover or a label and it seemed to be very dirty and stained. She was curious to see what it was and reached out to pick it up.</p>
+                <p>Just then, the woman came rushing out from the back room and slammed her hand down on the tape, pulling it away.</p>
+<p>With a stange smile on her face, she said, &#8220;That&#8217;s not something you girls should be watching.&#8221;</p>
+<p>When they asked her what it was, the woman told them not to touch it and all would say was that it was a home movie. Then, she handed them an old horror film and told them it would be much a better movie for them to watch. </p>
+<p>Eventually, the girls agreed to rent the tape that the woman suggested. While she was in the back room, searching for the film, one of the girls took the opportunity two swipe the mysterious video tape and stuffed it into her purse.</p>
+<p>Later that night, when the girls returned home, the girl who stole the video tape took it out of her purse and convinced the other two that they should watch it.</p>
+<p>They put the tape in the video recorder and pressed Play. All of a sudden, the power went out and the room was plunged into darkness. However, the television was still on. </p>
+                <p>With a crackle of static, the video started playing and, on the screen, they saw a woman tied to a wooden stake. She was surrounded by angry men and women who were carrying burning torches. They were shouting and spitting on her and then they set fire to the wood beneath the woman&#8217;s feet. </p>
+<p>The woman began laughing maniacally and the people yelled out things like &#8220;Burn the witch!&#8221; and &#8220;This is your punishment for practicing black magic!&#8221; As the flames rose higher and higher, licking at the woman&#8217;s face, she screamed out a curse, saying that all who witness her death will suffer the same fate in two days time.</p>
+<p>There was a screech of static and the VCR began making skipping sounds before it suddenly cut off. The terrified girls sat in the dark for a long time until the power came back on. They tried to convince each other that it must have been some type of prank. After a while, they agreed that they should return the tape immediately. </p>
+<p>When they arrived at the location of the video store, it was gone. All they found was an abandoned building and an empty lot. </p>
+<p>Two days later, all three of the girls were dead. The first girl was found floating in a swimming pool. Her body was burned beyond recognition. The charred remains of the second girl were discovered in the middle of a park and the third girl&#8217;s body was found in a furnace.</p>
+<p>When the police were investigating the mysterious deaths, they thought it was a very strange coincidence that all three girls had burned to death on the same day. In each case, the police thought it had been spontaneous combustion, but the weirdest thing about it was that nothing around them had even been singed by the flames. </p>
+<p>They found a trash can outside the house of one of the girls. It had been set on fire and was burned out. Everything inside it was destroyed, except for a video tape, which had been inexplicably left untouched by the flames.</p>
+            </div>
+            <font size=4></font>
+        </div>
+
+            
+            <br><br><br><br>
+            
+        </center>
+            
+ 
+        
+        <script>
+        
+        
+        </script>
+    </body>
+</html>

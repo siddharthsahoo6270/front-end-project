@@ -1,0 +1,286 @@
+<html>
+    <head>
+        <title>
+        
+            Freaked : Old Man
+        
+        </title>
+        <style>
+            @font-face{
+                src:url("fonts/CaviarDreams.ttf");
+                font-family:caviar;
+            }
+            
+            @font-face{
+                src: url("fonts/voice.otf");
+                font-family:assassin;
+            }
+            
+            @font-face{
+                src: url("fonts/GoogleSans.ttf");
+                font-family:google sans;
+            }
+            
+            .back1{
+            background:url("image/back2.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back2{
+            background:url("image/w-a-t-a-r-i-540046-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            .back3{
+            background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+        }
+            body,html{
+                margin:0;
+                scroll-behavior: smooth;
+                background:url("image/modesta-zemgulyte-194522-unsplash.jpg");    
+            background-position:center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-attachment: fixed;
+            height: 100%;
+            width:100%;
+            }
+/*
+            .header{
+                width:100%;
+                background: white;
+                font-family: assassin;
+                overflow: hidden;
+                position: fixed;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3)
+            }
+*/
+            
+            .item{
+                color: white;
+                text-align:center;
+                font-family: assassin;
+                padding-top: 20px;
+                padding-bottom: 20px;
+                padding-right: 10px;
+                padding-left: 30px;
+                font-size: 60px;
+/*                animation: danger 8s linear 2s infinite;*/
+            }
+            
+            @keyframes danger{
+                0%{color:black;}
+                25%{color:red;}
+                50%{color:blue;}
+                75%{color:darkviolet}
+                100%{color:black;}
+            }
+            
+            .box{
+                font-family: "google sans";
+                border: none;
+                color:black;
+                width:75%;
+                height:1300px;
+                padding:30px;
+                text-align: center;
+                font-size: 35px;
+                background: white;
+                box-shadow: 0 4px 8px 0 rgba(0,0,0,0.3);
+                
+                
+            }
+            .btn1{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                background: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn1:hover{
+                background-position: 50%;
+                transition: all .4s ease;
+            }
+            .btn2{
+                padding-left: 40px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 40px;
+                 background: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+                background-size: 300%;
+                border-radius: 60px;
+                font-size: 30px;
+                color:white;
+                border: none;
+                outline:none;
+                font-family: google sans;
+                transition: all 0.4s ease;
+                cursor: pointer;
+            }
+            .btn2:hover{
+                background-position: 90%;
+                transition: all .4s ease;
+            }
+            .gridcontainer{
+                width: 70%;
+                display: grid;
+                grid-template-columns: auto auto auto;
+                
+            }
+            .longCard{
+                cursor: pointer;
+                width:250px;
+               box-shadow: 0 4px 8px 0 rgba(0,0,0,0.5);
+                font-family: google sans;
+                border: none;
+                color:black;
+                background: white;
+                height:330px;
+                
+                text-align: center;
+                font-size: 20px;
+                background: white;
+                
+               border-radius: 5px ;
+                
+               
+            }
+            .smallcard{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/carmen-winstead.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard:hover{
+             filter: grayscale(0);
+            }
+            .smallcard2{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+                
+            }
+            .smallcard3{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/black-eyed-children.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard3:hover{
+               
+                filter: grayscale(0);
+            }
+            .smallcard4{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+            .smallcard5{
+                border-radius: 5px 5px 0 0;
+                height:65%;
+                background: violet;
+                background: url(image/video-tape.jpg);
+                background-size: cover;
+                background-position: center;
+                filter: grayscale(1);
+            }
+            .smallcard5:hover{
+                
+                filter: grayscale(0);
+            }
+            .smallcard6{
+               font-size: 18px;
+                height:35%;
+                background: white;
+                border-radius: 0 0 5px 5px ;
+            }
+             
+        
+        </style>
+    </head>
+    
+    <body>
+    
+    
+       
+            <div class="header" id="header">
+        
+        <div class="item" id=item><a href="ghost.html" style="color:white;text-decoration: none;">Freaked</a></div>
+       
+        </div>
+        <br><br>
+        <br><center>
+            
+    
+    
+
+        <div class=box>
+            <img style="margin-right: 25px;" align="left" src="image/old-man.jpg" width=360>
+            Old Man
+            
+            <br>
+            
+            
+            <div class="text" style="text-align: left;font-size: 20px;margin-left: 5px">
+            <p>The old man lived all alone in an ancient, crumbling house near the sea. His garden was overgrown and neglected and his house was surrounded by old, gnarled trees.</p>
+<p>He was a recluse and rarely ventured out of his home. No one knew his name or where he came from. Those who saw him said he had long black hair, a wrinkled, leathery face and dark, piercing eyes. Sometimes, neighbors would see him hobbling around on a cane.</p>
+<p>The old man was rumored to be both extremely rich and extremely feeble. There were rumors that he kept a fortune in gold hidden away somewhere in his dusty abode. </p>
+<p>Young boys loved to taunt the old man, shouting at him and calling him names whenever they passed his house. Sometimes they would even throw rocks at his house and break the window panes of his dwelling. Occasionally, some of the older kids would steal up to the house and peer in through the dusty windows just to catch a glimpse of him. </p>
+                
+<p>One night, three criminals decided to rob the old man. They parked their car outside his house and sat there in the darkness, waiting until the time was right. Their plan was to threaten the old man and make him tell them where his fortune was hidden. If that didn&#8217;t work, then they would beat it out of him.</p>
+<p>The moon was shining down on the ancient house and the wind was blowing through the branches of the old, gnarled trees. When the lights in the house went off, two of the criminals got out of the car and made their way up to the front door. They put on black masks to cover their faces and rang the doorbell.</p>
+<p>The third criminal sat in the car, waiting nervously for his companions to return. He kept checking his watch and wondering what was taking them so long. Just after midnight, he heard hideous screams coming from inside the ancient house.</p>
+<p>He hoped they didn&#8217;t beat the old man to death. If he died before he could reveal where his treasure was hidden, they would have to search the whole house from top to bottom. That could take all night. </p>
+<p>Just then, he heard footsteps coming down the path and the sound of someone opening the lock on the gate. In the dim glow of the street-lights, he strained his eyes to see, but when he looked, he didn&#8217;t see what he had expected. </p>
+<p>The next morning, an abandoned car was found parked outside the old man&#8217;s house. The police checked the licence plates and discovered that it had been stolen. They returned it to its rightful owner.</p>
+                <p>A few days later, three unidentified bodies washed up on the beach. The corpses were horribly mangled and mutilated. Every single bone in their bodies had been broken and their heads were crushed beyond recognition. The three bodies had been reduced to little more than three rubbery piles of flesh.</p>
+<p>The discovery of the bodies on the beach caused a lot of excitement in the little seaside town. That summer, it was all anyone could talk about and nobody could figure out who they were or what had happened to them. Still, whenever people passed by the old man&#8217;s house, they felt a little involuntary shiver of fear run down their spines. Young boys didn&#8217;t shout at the old man or call him names anymore and nobody dared to sneak up to his house and peer in his windows for fear of what they might see.</p>
+            
+            </div>
+            <font size=4></font>
+        </div>
+
+            
+            <br><br><br><br>
+            
+        </center>
+            
+ 
+        
+        <script>
+        
+        
+        </script>
+    </body>
+</html>
